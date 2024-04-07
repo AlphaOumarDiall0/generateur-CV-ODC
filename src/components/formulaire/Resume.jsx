@@ -5,6 +5,7 @@ import Skills from "./Skills"
 import Education from "./Education"
 import Experiences from "./Experiences"
 import Achievements from "./Achievements"
+import Projects from "./Projects"
 
 function Resume() {
 
@@ -54,6 +55,7 @@ function Resume() {
                                 <Achievements />
                                 <Experiences />
                                 <Education />
+                                <Projects />
                                 <Skills />       
                         </div>
                     </form>
