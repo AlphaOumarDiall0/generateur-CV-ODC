@@ -31,12 +31,12 @@ function Resume() {
                     <form action="" className="cv-form" id = "cv-form">
                         <div className = "cv-form-blk">
                                 
-                                <Infos />
-                                <Achievements />
-                                <Experiences />
-                                <Education />
-                                <Projects />
-                                <Skills />       
+                          <Infos />
+                          <Achievements />
+                          <Experiences />
+                          <Education />
+                          <Projects />
+                          <Skills />       
                         </div>
                     </form>
                 </div>
