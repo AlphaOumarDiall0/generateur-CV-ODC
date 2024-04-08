@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { useState } from "react"
+// import { useState } from "react"
 import Infos from "./Infos"
 import Skills from "./Skills"
 import Education from "./Education"
@@ -9,20 +9,20 @@ import Projects from "./Projects"
 
 function Resume() {
 
-    const [firstname, setFirstname] = useState('');
-    const [middlename, setMiddlename] = useState('');
-    const [lastname, setLastname] = useState('');
-    const [image, setImage] = useState('');
-    const [designation, setDesignation] = useState('');
-    const [address, setAddress] = useState('');
-    const [email, setEmail] = useState('');
-    const [phoneno, setPhoneno] = useState('');
-    const [summary, setSummary] = useState('');
-    const [projectsDsp, setProjectsDsp] = useState([]);
-    const [achievementsDsp, setAchievementsDsp] = useState([]);
-    const [skillsDsp, setSkillsDsp] = useState([]);
-    const [educationsDsp, setEducationsDsp] = useState([]);
-    const [experiencesDsp, setExperiencesDsp] = useState([]);
+    // const [firstname, setFirstname] = useState('');
+    // const [middlename, setMiddlename] = useState('');
+    // const [lastname, setLastname] = useState('');
+    // const [image, setImage] = useState('');
+    // const [designation, setDesignation] = useState('');
+    // const [address, setAddress] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [phoneno, setPhoneno] = useState('');
+    // const [summary, setSummary] = useState('');
+    // const [projectsDsp, setProjectsDsp] = useState([]);
+    // const [achievementsDsp, setAchievementsDsp] = useState([]);
+    // const [skillsDsp, setSkillsDsp] = useState([]);
+    // const [educationsDsp, setEducationsDsp] = useState([]);
+    // const [experiencesDsp, setExperiencesDsp] = useState([]);
 
   return <Fragment>
         <nav className = "navbar bg-white">
