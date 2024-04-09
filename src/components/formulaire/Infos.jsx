@@ -1,6 +1,5 @@
 
 function Infos() {
-    
     return <>
 
         <div className = "cv-form-row-title">

@@ -23,6 +23,7 @@ function Resume() {
     // const [skillsDsp, setSkillsDsp] = useState([]);
     // const [educationsDsp, setEducationsDsp] = useState([]);
     // const [experiencesDsp, setExperiencesDsp] = useState([]);
+    
 
   return <Fragment>
         <section id = "about-sc" className = "">
