@@ -7,12 +7,24 @@ function Accueil() {
                 <h6 className = "text-uppercase text-blue-dark fs-14 fw-6 ls-1">Générateur de CV en ligne</h6>
                 <h1 className = "lg-title">Seulement 4% des CV se démarquent dès le premier coup d'œil. Votre CV mérite d'être dans ce petit pourcentage.</h1>
                 <p className = "text-dark fs-18">Optez pour des modèles de CV professionnels qui respectent scrupuleusement les règles attendues par les employeurs. Faciles à utiliser et conçus en quelques minutes seulement. Essayez dès maintenant, gratuitement !</p>
-                <img src = "images/dublin-resume-templates.avif" />
-                <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link>
-                
             </div>
         </div>
     </header>
+
+    <div className="modeles-row">
+        <div className="modele">
+            <img src = "images/dublin-resume-templates.avif" />
+            <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link>
+        </div>
+        <div className="modele">
+            <img src = "images/dublin-resume-templates.avif" />
+            <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link> 
+        </div>
+        <div className="modele">
+            <img src = "images/dublin-resume-templates.avif" />
+            <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link>
+        </div>
+    </div>    
 
     <div className="section-one">
         <div className="container">

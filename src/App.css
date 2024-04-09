@@ -219,12 +219,27 @@ a{
     max-width: 740px;
     margin-right: auto;
     margin-left: auto;
+    /* display: flex; */
 }
-.header-content img{
-    max-width: 500px;
+
+.modeles-row{
+    display: flex;
+    padding: 10px;
+
+}
+
+.modele{
+    min-height: 50vh;
+    height: 50vh;
+}
+
+.modeles-row .modele img{
+    width: 500px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     margin-top: 3.2rem;
+    
+    
 }
 .lg-title{
     margin: 1.4rem 0;
