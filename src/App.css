@@ -222,24 +222,25 @@ a{
     /* display: flex; */
 }
 
-.modeles-row{
-    display: flex;
+.modeles-row {
+    /* display: flexbox; */
+    flex-wrap: wrap; /* Permettre le retour à la ligne des éléments */
     padding: 10px;
-
 }
 
-.modele{
-    min-height: 50vh;
-    height: 50vh;
+.modele {
+    min-width: 250px; /* Définir une largeur minimale pour chaque élément */
+    flex: 1 1 250px; /* Ajuster la taille de chaque élément en fonction de la taille de l'écran */
+    margin: 10px; /* Ajouter un espace entre les éléments */
 }
 
-.modeles-row .modele img{
-    width: 500px;
+.modeles-row .modele img {
+    max-width: 100%; /* Assurer que les images ne dépassent pas la largeur du conteneur */
+    height: auto; /* Permettre aux images de conserver leur proportion */
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     margin-top: 3.2rem;
-    
-    
+    padding-bottom: 10px;
 }
 .lg-title{
     margin: 1.4rem 0;

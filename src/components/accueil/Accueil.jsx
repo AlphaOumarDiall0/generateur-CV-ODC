@@ -17,11 +17,11 @@ function Accueil() {
             <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link>
         </div>
         <div className="modele">
-            <img src = "images/dublin-resume-templates.avif" />
+            <img src = "images/modele2.png" />
             <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link> 
         </div>
         <div className="modele">
-            <img src = "images/dublin-resume-templates.avif" />
+            <img src = "images/modele3.png" />
             <Link to={'/form'} className = "btn btn-primary text-uppercase">Choisir ce modèle</Link>
         </div>
     </div>    
