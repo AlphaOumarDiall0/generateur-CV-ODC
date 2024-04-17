@@ -7,7 +7,7 @@ function Navbar() {
                 <div className = "brand-and-toggler">
                     <a href = "index.html" className = "navbar-brand">
                         <img src = {'images/curriculum-vitae.png'} alt = "" className = "navbar-brand-icon" />
-                        <span className = "navbar-brand-text">build <span>resume.</span></span>
+                        <span className = "navbar-brand-text">Générateur <span>de CV.</span></span>
                     </a>
                     <button type = "button" className = "navbar-toggler-btn">
                         <div className = "bars">

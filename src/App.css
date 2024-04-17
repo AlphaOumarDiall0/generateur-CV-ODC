@@ -241,6 +241,7 @@ a{
     border-top-left-radius: 8px;
     margin-top: 3.2rem;
     padding-bottom: 10px;
+    width: 100%; 
 }
 .lg-title{
     margin: 1.4rem 0;
